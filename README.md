@@ -38,3 +38,25 @@ I'm particularly proud of the seamless integration between the frontend and back
 3. Run `docker-compose up`
 4. Access the frontend at `http://localhost:3000`
 5. Access the backend at `http://localhost:5000`
+
+new-project/
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   ├── .gitignore
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── README.md
+├── backend/
+│   ├── Controllers/
+│   ├── Data/
+│   ├── Models/
+│   ├── Migrations/
+│   ├── .gitignore
+│   ├── Program.cs
+│   ├── Startup.cs
+│   ├── appsettings.json
+│   ├── Dockerfile
+│   └── README.md
+├── .gitignore
+└── README.md
